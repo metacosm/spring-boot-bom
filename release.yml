@@ -7,23 +7,25 @@ issue:
 
 # If already created, provide the issue number of the Release, otherwise keep it empty.
 # It will be used by the command create-component to link the stakeholder issues
-#key:         # SB-1484
+#key: SB-1484
 
 schedule:
-  # Release date scheduled. It will also be used to populate the description to be created for each Jira stakeholder: component or starter owner
-  release: 2020-10-15
-  # Due date for the component/starter owner to release their new components, QE signoff it
-  due: 2020-10-02
+  # Scheduled release date.
+  release: 2020-10-31
+  # Due date for the component/starter owner to release their new components
+  due: 2020-10-17
   # EOL of the Snowdrop release
-  eol: 2021-10-15
+  eol: 2021-11-01
 
 components:
-  # List of JIRA Projects contributing to a Snowdrop release
-  # They will be used to create a component or starter
+  # List of JIRA Projects for which requests will be created: use `jira` for components that we use directly, `product` for
+  # products we depend on but don't use directly (e.g. Keycloak or products for which we create a starter), or both when we
+  # own the starter and productize it (and therefore need to release it and track the progress) but still need to get the
+  # associated product version (e.g. OpenTracing)
   - name: Hibernate / Hibernate Validator / Undertow / RESTEasy
     jira:
       project: EAPSUP
-      issueTypeId: 10600
+      issueTypeId: 10600 # issueTypeId is only needed when the default type is not available in the target JIRA project
       assignee: ivassile
     properties:
       - hibernate
@@ -38,28 +40,28 @@ components:
     properties:
       - tomcat
 
-  - name: Keycloak
+  - name: Keycloak starter
     jira:
       project: KEYCLOAK
       assignee: bdaw
     properties:
       - keycloak
 
-  - name: AMQP
+  - name: AMQP starter
     jira:
       project: ENTMQCL
       assignee: justi9
     properties:
       - amqp-10-starter
 
-  - name: RESTEasy
+  - name: RESTEasy starter
     jira:
       project: RESTEASY
       assignee: weinanli
     properties:
       - resteasy-spring-boot-starter
 
-  - name: OpenTracing / Jaeger
+  - name: OpenTracing / Jaeger starter
     jira:
       project: ENTSBT
       assignee: gandrian
@@ -110,8 +112,3 @@ components:
       assignee: iocanel
     properties:
       - dekorate
-
-cves:
-  # Include here the CVEs tickets to be link to this JIRA ticket release
-  - key: 273
-  - key: 816
