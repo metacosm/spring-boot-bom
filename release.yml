@@ -7,83 +7,83 @@ schedule:
   due: 2020-10-17
   eol: 2021-11-01
 components:
-- jira:
+- name: Hibernate / Hibernate Validator / Undertow / RESTEasy
+  jira:
     project: EAPSUP
     issueTypeId: 10600
     assignee: ivassile
-  name: Hibernate / Hibernate Validator / Undertow / RESTEasy
   properties:
   - hibernate
   - hibernate-validator
   - undertow
   - resteasy
-- jira:
+- name: Tomcat
+  jira:
     project: JWS
     assignee: csutherl
-  name: Tomcat
   properties:
   - tomcat
-- jira:
+- name: Keycloak starter
+  jira:
     project: KEYCLOAK
     assignee: bdaw
-  name: Keycloak starter
   properties:
   - keycloak
-- jira:
+- name: AMQP starter
+  jira:
     project: ENTMQCL
     assignee: justi9
-  name: AMQP starter
   properties:
   - amqp-10-starter
-- jira:
+- name: RESTEasy starter
+  jira:
     project: RESTEASY
     assignee: weinanli
-  name: RESTEasy starter
   properties:
   - resteasy-spring-boot-starter
-- jira:
+- name: OpenTracing / Jaeger starter
+  jira:
     project: ENTSBT
     assignee: gandrian
   product:
     project: TRACING
     assignee: objectiser
-  name: OpenTracing / Jaeger starter
   properties:
   - opentracing-spring-jaeger-web-starter
-- jira:
+- name: Infinispan / DataGrid
+  jira:
     project: JDG
     assignee: nadirx
-  name: Infinispan / DataGrid
   properties:
   - infinispan
   - infinispan-starter
-- jira:
+- name: Narayana starter
+  jira:
     project: ENTSBT
     assignee: gytis
   product:
     project: JBTM
     assignee: mmusgrov
-  name: Narayana starter
   properties:
   - narayana-starter
-- jira:
+- name: Vert.X starter
+  jira:
     project: ENTSBT
     assignee: gytis
   product:
     project: ENTVTX
     assignee: rruss
-  name: Vert.X starter
   properties:
   - vertx-spring-boot
-- jira:
+- name: Spring Cloud Kubernetes
+  jira:
     project: ENTSBT
     assignee: iocanel
-  name: Spring Cloud Kubernetes
   properties:
   - spring-cloud-kubernetes
-- jira:
+- name: Dekorate
+  jira:
     project: ENTSBT
     assignee: iocanel
-  name: Dekorate
   properties:
   - dekorate
