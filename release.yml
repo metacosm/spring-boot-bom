@@ -12,6 +12,7 @@ components:
 - name: Hibernate / Hibernate Validator / Undertow / RESTEasy
   jira:
     project: SB
+    key: SB-1879
     issueTypeId: 3
     assignee: snowdrop-test-user
   properties:
@@ -22,6 +23,7 @@ components:
 - name: Tomcat
   jira:
     project: SB
+    key: SB-1880
     issueTypeId: 3
     assignee: snowdrop-test-user
   properties:
@@ -29,6 +31,7 @@ components:
 - name: Keycloak starter
   jira:
     project: SB
+    key: SB-1881
     issueTypeId: 3
     assignee: snowdrop-test-user
   properties:
@@ -36,6 +39,7 @@ components:
 - name: AMQP starter
   jira:
     project: SB
+    key: SB-1882
     issueTypeId: 3
     assignee: snowdrop-test-user
   properties:
@@ -43,6 +47,7 @@ components:
 - name: RESTEasy starter
   jira:
     project: SB
+    key: SB-1883
     issueTypeId: 3
     assignee: snowdrop-test-user
   properties:
@@ -50,10 +55,12 @@ components:
 - name: OpenTracing / Jaeger starter
   jira:
     project: SB
+    key: SB-1884
     issueTypeId: 3
     assignee: snowdrop-test-user
   product:
     project: SB
+    key: SB-1885
     issueTypeId: 3
     assignee: snowdrop-test-user
   properties:
@@ -61,6 +68,7 @@ components:
 - name: Infinispan / DataGrid
   jira:
     project: SB
+    key: SB-1886
     issueTypeId: 3
     assignee: snowdrop-test-user
   properties:
@@ -69,10 +77,12 @@ components:
 - name: Narayana starter
   jira:
     project: SB
+    key: SB-1887
     issueTypeId: 3
     assignee: snowdrop-test-user
   product:
     project: SB
+    key: SB-1888
     issueTypeId: 3
     assignee: snowdrop-test-user
   properties:
@@ -80,10 +90,12 @@ components:
 - name: Vert.X starter
   jira:
     project: SB
+    key: SB-1889
     issueTypeId: 3
     assignee: snowdrop-test-user
   product:
     project: SB
+    key: SB-1890
     issueTypeId: 3
     assignee: snowdrop-test-user
   properties:
@@ -91,6 +103,7 @@ components:
 - name: Spring Cloud Kubernetes
   jira:
     project: SB
+    key: SB-1891
     issueTypeId: 3
     assignee: snowdrop-test-user
   properties:
@@ -98,6 +111,7 @@ components:
 - name: Dekorate
   jira:
     project: SB
+    key: SB-1892
     issueTypeId: 3
     assignee: snowdrop-test-user
   properties:
