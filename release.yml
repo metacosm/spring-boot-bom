@@ -1,9 +1,8 @@
 version: 2.2.10
-issue:
-  project: SB
-  key: SB-1611
-  issueTypeId: 3
-  assignee: snowdrop-test-user
+project: SB
+key: SB-1611
+issueTypeId: 3
+assignee: snowdrop-test-user
 schedule:
   release: 2020-10-31
   due: 2020-10-17
